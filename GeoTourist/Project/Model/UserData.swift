@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+/// struct to save place id
+struct UserData {
+    var placeId:String?
+}

@@ -3,29 +3,69 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		112CC7194089F401770391ED /* Pods_GeoTourist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B2E5FB5056CF6661B61D18 /* Pods_GeoTourist.framework */; };
+		4E1B390625AA09A200C77170 /* TourListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1B390425AA09A200C77170 /* TourListTableViewCell.swift */; };
+		4E1B390725AA09A200C77170 /* TourListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E1B390525AA09A200C77170 /* TourListTableViewCell.xib */; };
+		4E1B390A25AA362600C77170 /* ViewTourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1B390925AA362600C77170 /* ViewTourViewController.swift */; };
+		4E1B392325AB832F00C77170 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1B392225AB832F00C77170 /* WebViewController.swift */; };
+		4E1B392625AB867000C77170 /* LocationSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1B392525AB867000C77170 /* LocationSingleton.swift */; };
+		4E1B392A25ABC12D00C77170 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1B392925ABC12D00C77170 /* Date+Extension.swift */; };
+		4E1B392D25ABC26600C77170 /* MapPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1B392C25ABC26600C77170 /* MapPath.swift */; };
+		4E1B393025ABC2E900C77170 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1B392F25ABC2E900C77170 /* Constants.swift */; };
+		4E23462225A765DE00E2831B /* AddStopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E23462025A765DE00E2831B /* AddStopTableViewCell.swift */; };
+		4E23462325A765DE00E2831B /* AddStopTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E23462125A765DE00E2831B /* AddStopTableViewCell.xib */; };
+		4E23462725A782C800E2831B /* LocationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E23462625A782C800E2831B /* LocationDetails.swift */; };
 		4E25441E25A4759800E1BD4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E25441D25A4759800E1BD4F /* AppDelegate.swift */; };
-		4E25442025A4759800E1BD4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E25441F25A4759800E1BD4F /* SceneDelegate.swift */; };
-		4E25442225A4759800E1BD4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E25442125A4759800E1BD4F /* ViewController.swift */; };
 		4E25442525A4759800E1BD4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E25442325A4759800E1BD4F /* Main.storyboard */; };
 		4E25442825A4759800E1BD4F /* GeoTourist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E25442625A4759800E1BD4F /* GeoTourist.xcdatamodeld */; };
 		4E25442A25A4759900E1BD4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E25442925A4759900E1BD4F /* Assets.xcassets */; };
 		4E25442D25A4759900E1BD4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E25442B25A4759900E1BD4F /* LaunchScreen.storyboard */; };
+		4E25444425A4779400E1BD4F /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E25444325A4779400E1BD4F /* MainViewModel.swift */; };
+		4E25444725A4787600E1BD4F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E25444625A4787600E1BD4F /* HomeViewController.swift */; };
+		4E25444B25A478CA00E1BD4F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E25444A25A478CA00E1BD4F /* BaseViewController.swift */; };
+		4E25444E25A47BCA00E1BD4F /* CreateTourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E25444D25A47BCA00E1BD4F /* CreateTourViewController.swift */; };
+		4EC1682A25ABC99B0051EEA2 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC1682925ABC99B0051EEA2 /* UIColor+Extension.swift */; };
+		4EC1682D25ABC9D90051EEA2 /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC1682C25ABC9D90051EEA2 /* CGFloat+Extension.swift */; };
+		4EC1683025ABCA0F0051EEA2 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC1682F25ABCA0F0051EEA2 /* UserData.swift */; };
+		4EC1683325ABD5420051EEA2 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC1683225ABD5420051EEA2 /* UIView+Extension.swift */; };
+		4EC1683725ABD88A0051EEA2 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC1683625ABD88A0051EEA2 /* Localizable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12B2E5FB5056CF6661B61D18 /* Pods_GeoTourist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoTourist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E0BB0FD847853F7272E7A22 /* Pods-GeoTourist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoTourist.debug.xcconfig"; path = "Target Support Files/Pods-GeoTourist/Pods-GeoTourist.debug.xcconfig"; sourceTree = "<group>"; };
+		4E1B390425AA09A200C77170 /* TourListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourListTableViewCell.swift; sourceTree = "<group>"; };
+		4E1B390525AA09A200C77170 /* TourListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TourListTableViewCell.xib; sourceTree = "<group>"; };
+		4E1B390925AA362600C77170 /* ViewTourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTourViewController.swift; sourceTree = "<group>"; };
+		4E1B392225AB832F00C77170 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		4E1B392525AB867000C77170 /* LocationSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSingleton.swift; sourceTree = "<group>"; };
+		4E1B392925ABC12D00C77170 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		4E1B392C25ABC26600C77170 /* MapPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPath.swift; sourceTree = "<group>"; };
+		4E1B392F25ABC2E900C77170 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4E23462025A765DE00E2831B /* AddStopTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStopTableViewCell.swift; sourceTree = "<group>"; };
+		4E23462125A765DE00E2831B /* AddStopTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddStopTableViewCell.xib; sourceTree = "<group>"; };
+		4E23462625A782C800E2831B /* LocationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetails.swift; sourceTree = "<group>"; };
 		4E25441A25A4759800E1BD4F /* GeoTourist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoTourist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E25441D25A4759800E1BD4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4E25441F25A4759800E1BD4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4E25442125A4759800E1BD4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4E25442425A4759800E1BD4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E25442725A4759800E1BD4F /* GeoTourist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GeoTourist.xcdatamodel; sourceTree = "<group>"; };
 		4E25442925A4759900E1BD4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E25442C25A4759900E1BD4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E25442E25A4759900E1BD4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E25444325A4779400E1BD4F /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		4E25444625A4787600E1BD4F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4E25444A25A478CA00E1BD4F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4E25444D25A47BCA00E1BD4F /* CreateTourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTourViewController.swift; sourceTree = "<group>"; };
+		4EC1682925ABC99B0051EEA2 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		4EC1682C25ABC9D90051EEA2 /* CGFloat+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extension.swift"; sourceTree = "<group>"; };
+		4EC1682F25ABCA0F0051EEA2 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		4EC1683225ABD5420051EEA2 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		4EC1683625ABD88A0051EEA2 /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		6B5C62EB4C0D030D59E2476E /* Pods-GeoTourist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoTourist.release.xcconfig"; path = "Target Support Files/Pods-GeoTourist/Pods-GeoTourist.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +73,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112CC7194089F401770391ED /* Pods_GeoTourist.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E1B392825ABC0F900C77170 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4E1B392925ABC12D00C77170 /* Date+Extension.swift */,
+				4EC1682925ABC99B0051EEA2 /* UIColor+Extension.swift */,
+				4EC1682C25ABC9D90051EEA2 /* CGFloat+Extension.swift */,
+				4EC1683225ABD5420051EEA2 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4E23461F25A764FC00E2831B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4E23462025A765DE00E2831B /* AddStopTableViewCell.swift */,
+				4E23462125A765DE00E2831B /* AddStopTableViewCell.xib */,
+				4E1B390425AA09A200C77170 /* TourListTableViewCell.swift */,
+				4E1B390525AA09A200C77170 /* TourListTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		4E25441125A4759800E1BD4F = {
 			isa = PBXGroup;
 			children = (
 				4E25441C25A4759800E1BD4F /* GeoTourist */,
 				4E25441B25A4759800E1BD4F /* Products */,
+				BE76B5EA42FB44F3931D63AF /* Pods */,
+				D5411EC0B64AB3FD0383F7DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +123,117 @@
 		4E25441C25A4759800E1BD4F /* GeoTourist */ = {
 			isa = PBXGroup;
 			children = (
+				4E25443925A4768400E1BD4F /* Default */,
+				4EC1683525ABD8700051EEA2 /* Localizable */,
+				4E1B392825ABC0F900C77170 /* Extensions */,
+				4E25444925A478B000E1BD4F /* Common */,
+				4E25443E25A476E100E1BD4F /* Project */,
+				4E25443D25A476C800E1BD4F /* Local Database */,
+			);
+			path = GeoTourist;
+			sourceTree = "<group>";
+		};
+		4E25443925A4768400E1BD4F /* Default */ = {
+			isa = PBXGroup;
+			children = (
 				4E25441D25A4759800E1BD4F /* AppDelegate.swift */,
-				4E25441F25A4759800E1BD4F /* SceneDelegate.swift */,
-				4E25442125A4759800E1BD4F /* ViewController.swift */,
-				4E25442325A4759800E1BD4F /* Main.storyboard */,
 				4E25442925A4759900E1BD4F /* Assets.xcassets */,
 				4E25442B25A4759900E1BD4F /* LaunchScreen.storyboard */,
 				4E25442E25A4759900E1BD4F /* Info.plist */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		4E25443D25A476C800E1BD4F /* Local Database */ = {
+			isa = PBXGroup;
+			children = (
 				4E25442625A4759800E1BD4F /* GeoTourist.xcdatamodeld */,
 			);
-			path = GeoTourist;
+			path = "Local Database";
+			sourceTree = "<group>";
+		};
+		4E25443E25A476E100E1BD4F /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				4E25444225A476F400E1BD4F /* Model */,
+				4E25444125A476F000E1BD4F /* ViewModel */,
+				4E25444025A476ED00E1BD4F /* View */,
+				4E25443F25A476EA00E1BD4F /* Controller */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		4E25443F25A476EA00E1BD4F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E25444625A4787600E1BD4F /* HomeViewController.swift */,
+				4E25444D25A47BCA00E1BD4F /* CreateTourViewController.swift */,
+				4E1B390925AA362600C77170 /* ViewTourViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E25444025A476ED00E1BD4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E25442325A4759800E1BD4F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E25444125A476F000E1BD4F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4E25444325A4779400E1BD4F /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4E25444225A476F400E1BD4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E23462625A782C800E2831B /* LocationDetails.swift */,
+				4E1B392C25ABC26600C77170 /* MapPath.swift */,
+				4EC1682F25ABCA0F0051EEA2 /* UserData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E25444925A478B000E1BD4F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4E23461F25A764FC00E2831B /* Cell */,
+				4E25444A25A478CA00E1BD4F /* BaseViewController.swift */,
+				4E1B392225AB832F00C77170 /* WebViewController.swift */,
+				4E1B392525AB867000C77170 /* LocationSingleton.swift */,
+				4E1B392F25ABC2E900C77170 /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4EC1683525ABD8700051EEA2 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				4EC1683625ABD88A0051EEA2 /* Localizable.swift */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		BE76B5EA42FB44F3931D63AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E0BB0FD847853F7272E7A22 /* Pods-GeoTourist.debug.xcconfig */,
+				6B5C62EB4C0D030D59E2476E /* Pods-GeoTourist.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D5411EC0B64AB3FD0383F7DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12B2E5FB5056CF6661B61D18 /* Pods_GeoTourist.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E25443125A4759900E1BD4F /* Build configuration list for PBXNativeTarget "GeoTourist" */;
 			buildPhases = (
+				514CBF2AB1DABD62A3D85181 /* [CP] Check Pods Manifest.lock */,
 				4E25441625A4759800E1BD4F /* Sources */,
 				4E25441725A4759800E1BD4F /* Frameworks */,
 				4E25441825A4759800E1BD4F /* Resources */,
+				5B3CBE2A368607DA70523D00 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,20 +298,80 @@
 				4E25442D25A4759900E1BD4F /* LaunchScreen.storyboard in Resources */,
 				4E25442A25A4759900E1BD4F /* Assets.xcassets in Resources */,
 				4E25442525A4759800E1BD4F /* Main.storyboard in Resources */,
+				4E23462325A765DE00E2831B /* AddStopTableViewCell.xib in Resources */,
+				4E1B390725AA09A200C77170 /* TourListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		514CBF2AB1DABD62A3D85181 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeoTourist-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B3CBE2A368607DA70523D00 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeoTourist/Pods-GeoTourist-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeoTourist/Pods-GeoTourist-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeoTourist/Pods-GeoTourist-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4E25441625A4759800E1BD4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E25444B25A478CA00E1BD4F /* BaseViewController.swift in Sources */,
+				4E1B392325AB832F00C77170 /* WebViewController.swift in Sources */,
+				4EC1683725ABD88A0051EEA2 /* Localizable.swift in Sources */,
+				4E1B392A25ABC12D00C77170 /* Date+Extension.swift in Sources */,
 				4E25442825A4759800E1BD4F /* GeoTourist.xcdatamodeld in Sources */,
-				4E25442225A4759800E1BD4F /* ViewController.swift in Sources */,
 				4E25441E25A4759800E1BD4F /* AppDelegate.swift in Sources */,
-				4E25442025A4759800E1BD4F /* SceneDelegate.swift in Sources */,
+				4E1B393025ABC2E900C77170 /* Constants.swift in Sources */,
+				4E25444425A4779400E1BD4F /* MainViewModel.swift in Sources */,
+				4EC1682D25ABC9D90051EEA2 /* CGFloat+Extension.swift in Sources */,
+				4EC1682A25ABC99B0051EEA2 /* UIColor+Extension.swift in Sources */,
+				4E23462225A765DE00E2831B /* AddStopTableViewCell.swift in Sources */,
+				4E1B390625AA09A200C77170 /* TourListTableViewCell.swift in Sources */,
+				4E25444E25A47BCA00E1BD4F /* CreateTourViewController.swift in Sources */,
+				4EC1683325ABD5420051EEA2 /* UIView+Extension.swift in Sources */,
+				4EC1683025ABCA0F0051EEA2 /* UserData.swift in Sources */,
+				4E1B390A25AA362600C77170 /* ViewTourViewController.swift in Sources */,
+				4E25444725A4787600E1BD4F /* HomeViewController.swift in Sources */,
+				4E1B392625AB867000C77170 /* LocationSingleton.swift in Sources */,
+				4E23462725A782C800E2831B /* LocationDetails.swift in Sources */,
+				4E1B392D25ABC26600C77170 /* MapPath.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,12 +515,13 @@
 		};
 		4E25443225A4759900E1BD4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E0BB0FD847853F7272E7A22 /* Pods-GeoTourist.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 27J356AFNZ;
-				INFOPLIST_FILE = GeoTourist/Info.plist;
+				DEVELOPMENT_TEAM = 8D7ZYFJ7J6;
+				INFOPLIST_FILE = GeoTourist/Default/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,12 +535,13 @@
 		};
 		4E25443325A4759900E1BD4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B5C62EB4C0D030D59E2476E /* Pods-GeoTourist.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 27J356AFNZ;
-				INFOPLIST_FILE = GeoTourist/Info.plist;
+				DEVELOPMENT_TEAM = 8D7ZYFJ7J6;
+				INFOPLIST_FILE = GeoTourist/Default/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

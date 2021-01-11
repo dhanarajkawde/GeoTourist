@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+/// struct to parse map routes
+struct MapPath : Decodable{
+    var routes : [Route]?
+}
+
+struct Route : Decodable{
+    var overview_polyline : OverView?
+}
+
+struct OverView : Decodable {
+    var points : String?
+}

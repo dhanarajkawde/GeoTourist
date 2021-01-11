@@ -7,17 +7,17 @@
 
 import UIKit
 
+/// Class to load and show tour list
 class TourListTableViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+    // MARK:- IB Outlets
+    @IBOutlet weak var viwBack: UIView!
+    @IBOutlet weak var lblName: UILabel!
     
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        self.viwBack.layer.cornerRadius = 5
+        self.viwBack.addShadow(offset: CGSize(width: 1.0, height: 1.0), color: UIColor.darkGray, radius: 3, opacity: 0.3)
+    }
 }

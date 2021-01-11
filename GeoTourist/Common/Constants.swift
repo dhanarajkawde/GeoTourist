@@ -6,3 +6,20 @@
 //
 
 import Foundation
+
+/// Constants
+struct Constants {
+    
+    //UITableViewCell Identifier
+    static let TourListTableViewCell = "TourListTableViewCell"
+    static let AddStopTableViewCell = "AddStopTableViewCell"
+    
+    //UIViewController Identifier
+    static let HomeViewController = "HomeViewController"
+    static let CreateTourViewController = "CreateTourViewController"
+    static let ViewTourViewController = "ViewTourViewController"
+    static let WebViewController = "WebViewController"
+    
+    //Storyboard Identifier
+    static let Main = "Main"
+}

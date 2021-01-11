@@ -6,24 +6,27 @@
 //
 
 import UIKit
+import WebKit
 
-class WebViewController: UIViewController {
+/// class to Open URL
+class WebViewController: BaseViewController {
 
+    // MARK:- IB Outlets
+    @IBOutlet weak var lblHeader: UILabel!
+    @IBOutlet weak var webViw: WKWebView!
+        
+    // MARK:- View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.webViw.loadFileURL(BaseViewController.logFile!, allowingReadAccessTo: BaseViewController.logFile!)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    /// Go back to home controller
+    /// - Parameter sender: sender description
+    @IBAction func btnBackClicked(_ sender: UIButton) {
+        
+        self.navigationController?.popViewController(animated: true)
     }
-    */
 
 }
